@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@adam-mf/shared/data-access-user": [
+        "shared/data-access-user/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

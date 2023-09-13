@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'adam-mf',
-  preset: '../../jest.preset.js',
+  displayName: 'adam-shell',
+  preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/adam-mf',
+  coverageDirectory: '../coverage/adam-shell',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
